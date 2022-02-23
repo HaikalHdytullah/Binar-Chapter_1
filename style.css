@@ -1,5 +1,5 @@
-* {
-  font-family: Helvetica, Arial, sans-serif;
+body {
+  font-family: Helvetica;
 }
 
 .bg-header {
@@ -30,9 +30,16 @@
 }
 
 .our-service {
-  width: 1027px;
-  height: 428px;
   margin-top: 100px;
+}
+
+.ceklis {
+  border: 2px solid;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  color: #0d28a6;
+  background-color: #cfd4ed;
 }
 
 .why-us__margin {
@@ -43,33 +50,68 @@
   margin-top: 40px;
 }
 
-.carousel-section {
-  width: 619px;
-  height: 270px;
-  background: #f1f3ff;
+#slider {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-.carousel-row {
-  padding: 40px 0;
+.controller {
+  display: flex;
+  justify-content: center;
+}
+
+#controls i {
+  color: black;
+  font-size: 1rem;
+}
+
+.previous,
+.next {
+  padding: 2px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  transition: 0.7s ease-in-out;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.previous:hover,
+.next:hover {
+  border: 1px solid grey;
+  background-color: limegreen;
+}
+
+.slide-img {
+  background-color: #f1f3ff;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-jarak {
+  margin-top: 30px;
 }
 
 .banner-box {
-  margin-top: 100px;
-  height: 326px;
+  margin-top: 50px;
   background: #0d28a6;
   border-radius: 13px;
-  padding-top: 64px;
-}
-
-.banner-box p {
-  margin-top: 10px;
-  margin-right: 300px;
-  margin-left: 300px;
 }
 
 .btn-banner-section {
   background: #5cb85f;
-  margin-top: 40px;
+  display: inline-block;
 }
 
 .faq {
@@ -78,4 +120,45 @@
 
 .footer {
   margin: 150px 0 100px 0;
+}
+
+#ourservice {
+  height: 230px;
+  width: 100%;
+  opacity: 0%;
+
+  background-color: pink;
+  z-index: -1;
+  position: Absolute;
+}
+
+#whyus {
+  height: 230px;
+  width: 100%;
+  opacity: 0%;
+
+  background-color: pink;
+  z-index: -1;
+  position: Absolute;
+}
+
+#testimonial {
+  margin-top: -20px;
+  height: 230px;
+  width: 100%;
+  opacity: 0%;
+
+  background-color: pink;
+  z-index: -1;
+  position: Absolute;
+}
+
+#faq {
+  height: 230px;
+  width: 100%;
+  opacity: 0%;
+
+  background-color: pink;
+  z-index: -1;
+  position: Absolute;
 }
