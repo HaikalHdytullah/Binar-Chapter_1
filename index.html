@@ -40,9 +40,13 @@
     <div class="bg-header">
       <!-- Navbar -->
       <div class="nav-bar">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-header">
           <div class="container">
-            <a class="navbar-brand bg-darkblue px-5" href="./index.html"></a>
+            <a
+              class="navbar-brand bg-darkblue px-5"
+              href="./index.html"
+              style="border-radius: 10px"
+            ></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -87,7 +91,7 @@
       </div>
 
       <!-- Main Section -->
-      <div class="container">
+      <div class="container d-flex">
         <div class="row">
           <div class="col-md-5 main-section-left">
             <h2>
@@ -98,7 +102,7 @@
               kualitas terbaik dengan harga terjangkau. Selalu siap melayani
               kebutuhanmu untuk sewa mobil selama 24 jam.
             </p>
-            <a href="#" class="btn btn-main-section text-white"
+            <a href="#" class="btn btn-main-section text-white mb-3"
               >Mulai Sewa Mobil</a
             >
           </div>
@@ -124,31 +128,41 @@
             <strong>Best Car Rental for any kind of trip in Karawang!</strong>
           </h2>
           <br />
-          <p>
-            Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
-            lebih murah dibandingkan yang lain, kondisi mobil baru, serta
-            kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding,
-            meeting, dll.
+          <p style="text-align: justify">
+            Sewa mobil di Karawang bersama Binar Car Rental jaminan harga lebih
+            murah dibandingkan yang lain, kondisi mobil baru, serta kualitas
+            pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting,
+            dll.
           </p>
           <p>
-            <img src="./img/ceklis.png" class="me-3" alt="" />Sewa Mobil dengan
-            Supir di Bali 12 Jam
+            <span class="ceklis-box">
+              <i class="fas fa-check me-3 pt-1"></i>
+            </span>
+            Sewa Mobil dengan Supir di Bali 12 Jam
           </p>
           <p>
-            <img src="./img/ceklis.png" class="me-3" alt="" />Sewa Mobil Lepas
-            Kunci di Bali 12 Jam
+            <span class="ceklis-box">
+              <i class="fas fa-check me-3 pt-1"></i>
+            </span>
+            Sewa Mobil Lepas Kunci di Bali 12 Jam
           </p>
           <p>
-            <img src="./img/ceklis.png" class="me-3" alt="" />Sewa Mobil Jangan
-            Panjang Bulanan
+            <span class="ceklis-box">
+              <i class="fas fa-check me-3 pt-1"></i>
+            </span>
+            Sewa Mobil Jangan Panjang Bulanan
           </p>
           <p>
-            <img src="./img/ceklis.png" class="me-3" alt="" />Gratis Antar -
-            Jemput di Mobil Bandara
+            <span class="ceklis-box">
+              <i class="fas fa-check me-3 pt-1"></i>
+            </span>
+            Gratis Antar - Jemput di Mobil Bandara
           </p>
           <p>
-            <img src="./img/ceklis.png" class="me-3" alt="" />Layanan Airport
-            Transfer / Drop in Out
+            <span class="ceklis-box">
+              <i class="fas fa-check me-3 pt-1"></i>
+            </span>
+            Layanan Airport Transfer / Drop in Out
           </p>
         </div>
       </div>
@@ -334,15 +348,17 @@
     <!-- End of Testimony Section -->
 
     <!-- Banner Section -->
-    <div class="container banner-box text-light text-center p-5">
-      <h1 class="fw-bold">Sewa Mobil di Karawang Sekarang</h1>
-      <p class="w-50 mx-auto">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-      <a href="#" class="btn btn-banner-section text-white mt-4"
-        >Mulai Sewa Mobil</a
-      >
+    <div class="container">
+      <div class="banner-box text-light text-center p-5">
+        <h1 class="fw-bold">Sewa Mobil di Karawang Sekarang</h1>
+        <p class="w-50 mx-auto">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <a href="#" class="btn btn-banner-section text-white mt-4"
+          >Mulai Sewa Mobil</a
+        >
+      </div>
     </div>
     <!-- End of Banner Section -->
 
@@ -515,12 +531,12 @@
     <div class="container">
       <div class="footer">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 mb-1">
             <p>Jalan Suroyo No. 161 Mayangan Kota Probolinggo 672000</p>
             <p>binarcarrental@gmail.com</p>
             <p>081-233-334-808</p>
           </div>
-          <div class="col-lg-2">
+          <div class="col-lg-2 mb-3">
             <a
               class="text-dark fw-bold d-block mb-3"
               style="text-decoration: none"
@@ -546,7 +562,7 @@
               >FAQ</a
             >
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 mb-3">
             <p>Connect with us</p>
             <img src="./img/icon_facebook.png" class="me-3" alt="" />
             <img src="./img/icon_instagram.png" class="me-3" alt="" />
@@ -556,7 +572,11 @@
           </div>
           <div class="col-lg-2">
             <p>Copyright Binar 2022</p>
-            <a class="navbar-brand bg-darkblue px-5" href="#"></a>
+            <a
+              class="navbar-brand bg-darkblue px-5"
+              style="border-radius: 10px"
+              href="#"
+            ></a>
           </div>
         </div>
       </div>

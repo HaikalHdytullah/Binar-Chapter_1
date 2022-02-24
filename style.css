@@ -33,13 +33,16 @@ body {
   margin-top: 100px;
 }
 
-.ceklis {
-  border: 2px solid;
-  border-radius: 50%;
+.ceklis-box {
+  text-align: center;
+}
+.fa-check {
   width: 24px;
   height: 24px;
-  color: #0d28a6;
+  border-radius: 50%;
   background-color: #cfd4ed;
+  color: #0d28a6;
+  outline: none;
 }
 
 .why-us__margin {
